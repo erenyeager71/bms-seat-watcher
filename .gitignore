@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local Git and editor state
+.git/
+.vscode/
+*.code-profile
+
+# Runtime captures, browser state, and debug artifacts
+api_*.json
+debug-*.js
+page_info.json
+konva.json
+seats.json
+tree.json
+seatmap.png
+seatpage.html
+seatpage.png
+
+# Logs
+*.log
+logs/
